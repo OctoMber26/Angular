@@ -1,0 +1,255 @@
+@media (min-width:1025px){
+    .p-1{
+width: 400px;
+margin: auto;
+border-radius: 30px;
+    }
+
+    .tumb{
+        width: 100px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    .tumb:hover{
+        border: solid 2px;
+        border-color: orange;
+        opacity: 0.5;
+    }
+
+    .images{
+        margin-left: 80px;
+        
+    }
+
+    .images:hover{
+        background-color: white;
+    }
+
+    #carouselExampleControls{
+display: none;
+    }
+
+    .subtitle{
+        color: orange;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bolder;
+        margin-top: 70px;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .title{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 40px;
+        width: 400px;
+    }
+
+    .snekers{
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .about{
+        color: grey;
+        font-family: 'Josefin Sans', sans-serif;
+        width: 500px;
+        margin-top: 30px;
+    }
+
+    .amount{
+        width: 170px;
+        height: 44px;
+        background-color: #EAF5FF;
+        border-radius:15px;
+    }
+
+    .buy{
+        width: 170px;
+        height: 44px;
+        background-color: #FF7600;
+        border-radius:15px;
+        -webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.47); 
+        box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.47);
+        margin-left: 50px;
+        color: rgb(255, 255, 255);
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .add{
+        margin-top: 10px;
+    }
+
+    .minus{
+        background-color: transparent;
+        border: none;
+        margin-left: -100px;
+    }
+
+    .plus{
+        background-color: transparent;
+        border: none;
+        margin-right: -100px;
+    }
+
+    .alock{
+        margin-top: 5px;
+    }
+
+    .dollar{
+        width: 40px;
+        margin-top: -15px;
+    }
+
+    .price{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 5px;
+        display: block;
+        font-size: 50px;
+    }
+
+    .sale{
+        width: 60px;
+        height: 40px;
+        border-radius: 10px;
+        display:block;
+        background-color: rgba(241, 162, 93, 0.402);
+        margin-left: 50px;
+        text-align: center;
+        color:#FF7600 ;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:600px){
+    html, body{
+        overflow-x: hidden;
+    }
+    .images{
+        display: none;
+    }
+
+    .image{
+        display: none;
+    }
+
+    .carousel-img{
+        width: 400px;
+    }
+
+    .tumb{
+        display: none;
+    }
+
+    #carouselExampleControls{
+        width: 110%;
+        margin-left: -15px;
+    }
+
+    .next{
+        margin-left: -70px;
+    }
+
+    .subtitle{
+        color: orange;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bolder;
+        margin-top: 30px;
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    .title{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .snekers{
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .about{
+        color: grey;
+        font-family: 'Josefin Sans', sans-serif;
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .amount{
+        width: 70%;
+        height: 44px;
+        background-color: #EAF5FF;
+        border-radius:15px;
+        margin: auto;
+    }
+
+    .buy{
+        width: 70%;
+        height: 44px;
+        background-color: #FF7600;
+        border-radius:15px;
+        margin-left: 50px;
+        color: rgb(255, 255, 255);
+        font-family: 'Josefin Sans', sans-serif;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .add{
+        margin-top: 10px;
+    }
+
+    .minus{
+        background-color: transparent;
+        border: none;
+        margin-left: -100px;
+    }
+
+    .plus{
+        background-color: transparent;
+        border: none;
+        margin-right: -100px;
+    }
+
+    .alock{
+        margin-top: 5px;
+    }
+
+    .dollar{
+        width: 40px;
+        margin-top: -15px;
+        margin-left: 10px;
+    }
+
+    .price{
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 5px;
+        display: block;
+        font-size: 50px;
+    }
+
+    .sale{
+        width: 60px;
+        height: 40px;
+        border-radius: 10px;
+        display:block;
+        background-color: rgba(241, 162, 93, 0.402);
+        margin-left: 50px;
+        text-align: center;
+        color:#FF7600 ;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    h2{
+        margin-left: 30px;
+    }
+}
